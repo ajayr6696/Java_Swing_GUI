@@ -1,6 +1,6 @@
-# Java Spring Boot GUI Application
+# Java Swing GUI Application
 
-This Java Spring Boot GUI application implements a graphical user interface with various features. It includes a resizable divider between two panes, supports minimizing, maximizing, resizing, and exiting functionalities. Additionally, it provides a "File" menu with "open" and "save" sub-menus, and the ability to add circles to the graphic pane upon mouse clicks.
+This Java Swing GUI application implements a graphical user interface with various features using Java's Swing library. The application provides functionalities such as resizable dividers, minimize, maximize, and exit controls, a "File" menu with "open" and "save" sub-menus, the ability to add circles to the graphic pane upon mouse clicks, and scrollbars for navigation.
 
 ## Features
 
@@ -11,7 +11,7 @@ This Java Spring Boot GUI application implements a graphical user interface with
    The "File" menu contains two sub-menus: "Open" and "Save". Currently, no specific action is implemented for these sub-menus.
 
 3. **Circle Addition:**
-   When you click inside the graphic pane, a circle is added to the pane. This feature works on both tabs.
+   When you click inside the graphic pane, a circle is added to the pane.
 
 4. **Text Pane Content:**
    The text pane displays the message "Hello, world!".
@@ -24,11 +24,11 @@ This Java Spring Boot GUI application implements a graphical user interface with
 
 ## Running the Application
 
-To run the Java Spring Boot GUI application, follow these steps:
+To run the Java Swing GUI application, follow these steps:
 
 1. Clone this repository to your local machine.
 
-2. Open the project using your preferred Java IDE.
+2. Open the project in your preferred Java IDE.
 
 3. Build and run the application.
 
@@ -36,6 +36,6 @@ To run the Java Spring Boot GUI application, follow these steps:
 
 ## Notes
 
-- This application is implemented using Java Spring Boot framework.
+- This application is implemented using Java's Swing library.
 - The "File" sub-menus "Open" and "Save" currently don't have specific functionality implemented. You can extend the application to add file handling features.
 - Feel free to explore and enhance the application with additional features as desired.
